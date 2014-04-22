@@ -147,7 +147,7 @@ process(CLK)
 				if BTN_STP = '1' and BTN_STP_OLD = '0' then
 					temp <= '0';
 				else
-					if SEK >= 59 then 
+					if SEK >= 60 then 
 							SEK <= 0;
 							MIN <= MIN +1;
 						else

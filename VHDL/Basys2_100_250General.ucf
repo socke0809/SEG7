@@ -1,0 +1,531 @@
+## This file is a general .ucf for Basys2 rev C board
+## To use it in a project:
+## - remove or comment the lines corresponding to unused pins
+## - rename the used signals according to the project
+#
+INST "Inst_Int_to_7SEG" AREA_GROUP = "pblock_1";
+INST "Inst_divide_by" AREA_GROUP = "pblock_1";
+INST "SEK_mux0000<3>" AREA_GROUP = "pblock_1";
+INST "Mcount_PRE_xor<4>" AREA_GROUP = "pblock_1";
+INST "SEK_mux0000<3>_SW0" AREA_GROUP = "pblock_1";
+INST "Mcompar_CE_cmp_lt0000_lut<6>" AREA_GROUP = "pblock_1";
+INST "AN_2" AREA_GROUP = "pblock_1";
+INST "Mcount_PRE_cy<19>" AREA_GROUP = "pblock_1";
+INST "Madd_SE_addsub0000_xor<18>" AREA_GROUP = "pblock_1";
+INST "Mcompar_CE_cmp_lt0000_lut<5>" AREA_GROUP = "pblock_1";
+INST "Mcount_PRE_cy<8>" AREA_GROUP = "pblock_1";
+INST "Mcount_PRE_xor<2>" AREA_GROUP = "pblock_1";
+INST "AN_1" AREA_GROUP = "pblock_1";
+INST "Madd_SE_addsub0000_xor<13>" AREA_GROUP = "pblock_1";
+INST "Madd_SE_addsub0000_xor<24>" AREA_GROUP = "pblock_1";
+INST "MIN_1" AREA_GROUP = "pblock_1";
+INST "Mcount_PRE_xor<6>" AREA_GROUP = "pblock_1";
+INST "Mcompar_CE_cmp_lt0000_lut<7>" AREA_GROUP = "pblock_1";
+INST "SEK_mux0000<3>11" AREA_GROUP = "pblock_1";
+INST "Mmux_A_BUF_mux000031" AREA_GROUP = "pblock_1";
+INST "Madd_SE_addsub0000_xor<19>" AREA_GROUP = "pblock_1";
+INST "Mcompar_CE_cmp_lt0000_lut<1>_INV_0" AREA_GROUP = "pblock_1";
+INST "MIN_0" AREA_GROUP = "pblock_1";
+INST "Madd_SE_addsub0000_cy<14>_rt" AREA_GROUP = "pblock_1";
+INST "Mcompar_CE_cmp_lt0000_lut<8>" AREA_GROUP = "pblock_1";
+INST "Mcompar_CE_cmp_lt0000_lut<4>" AREA_GROUP = "pblock_1";
+INST "AN_0" AREA_GROUP = "pblock_1";
+INST "Madd_SE_addsub0000_cy<24>_rt" AREA_GROUP = "pblock_1";
+INST "Mmux_A_BUF_mux000032" AREA_GROUP = "pblock_1";
+INST "Madd_SE_addsub0000_cy<8>_rt" AREA_GROUP = "pblock_1";
+INST "Mcount_PRE_xor<5>" AREA_GROUP = "pblock_1";
+INST "Mcount_PRE_xor<8>" AREA_GROUP = "pblock_1";
+INST "MIN_4" AREA_GROUP = "pblock_1";
+INST "SEK_1" AREA_GROUP = "pblock_1";
+INST "MIN_3" AREA_GROUP = "pblock_1";
+INST "Mcount_PRE_cy<14>_rt" AREA_GROUP = "pblock_1";
+INST "MIN_2" AREA_GROUP = "pblock_1";
+INST "SEK_0" AREA_GROUP = "pblock_1";
+INST "SEG_6_OBUF" AREA_GROUP = "pblock_1";
+INST "AN_3" AREA_GROUP = "pblock_1";
+INST "Mcompar_SE_cmp_lt0000_cy<0>_rt" AREA_GROUP = "pblock_1";
+INST "Mcompar_CE_cmp_lt0000_lut<9>" AREA_GROUP = "pblock_1";
+INST "Madd_SE_addsub0000_cy<2>_rt" AREA_GROUP = "pblock_1";
+INST "temp_not0001" AREA_GROUP = "pblock_1";
+INST "SEK_5" AREA_GROUP = "pblock_1";
+INST "SEK_4" AREA_GROUP = "pblock_1";
+INST "SEK_3" AREA_GROUP = "pblock_1";
+INST "SEK_2" AREA_GROUP = "pblock_1";
+INST "Mcount_COUNT_xor<1>11" AREA_GROUP = "pblock_1";
+INST "Mcount_PRE_xor<1>" AREA_GROUP = "pblock_1";
+INST "Mcount_PRE_xor<0>" AREA_GROUP = "pblock_1";
+INST "MIN_mux0000<0>61" AREA_GROUP = "pblock_1";
+INST "Mcount_PRE_cy<15>_rt" AREA_GROUP = "pblock_1";
+INST "Mcount_PRE_cy<22>" AREA_GROUP = "pblock_1";
+INST "MIN_6" AREA_GROUP = "pblock_1";
+INST "Madd_SE_addsub0000_xor<23>" AREA_GROUP = "pblock_1";
+INST "Mcount_PRE_cy<20>_rt" AREA_GROUP = "pblock_1";
+INST "DP_OBUF" AREA_GROUP = "pblock_1";
+INST "Mcount_PRE_cy<17>" AREA_GROUP = "pblock_1";
+INST "Madd_SE_addsub0000_xor<22>" AREA_GROUP = "pblock_1";
+INST "MIN_5" AREA_GROUP = "pblock_1";
+INST "Mcount_PRE_cy<15>" AREA_GROUP = "pblock_1";
+INST "Mcount_PRE_cy<20>" AREA_GROUP = "pblock_1";
+INST "Madd_SE_addsub0000_xor<17>" AREA_GROUP = "pblock_1";
+INST "Mcount_PRE_cy<14>" AREA_GROUP = "pblock_1";
+INST "Madd_SE_addsub0000_xor<16>" AREA_GROUP = "pblock_1";
+INST "SEG_5_OBUF" AREA_GROUP = "pblock_1";
+INST "Madd_SE_addsub0000_xor<21>" AREA_GROUP = "pblock_1";
+INST "Mcount_PRE_cy<13>" AREA_GROUP = "pblock_1";
+INST "Madd_SE_addsub0000_xor<20>" AREA_GROUP = "pblock_1";
+INST "Madd_SE_addsub0000_xor<14>" AREA_GROUP = "pblock_1";
+INST "Madd_SE_addsub0000_xor<15>" AREA_GROUP = "pblock_1";
+INST "Mcount_PRE_cy<9>" AREA_GROUP = "pblock_1";
+INST "Mrom_COUNT_rom000051" AREA_GROUP = "pblock_1";
+INST "Mcount_PRE_xor<7>" AREA_GROUP = "pblock_1";
+INST "Mcount_PRE_cy<1>_rt" AREA_GROUP = "pblock_1";
+INST "Mcount_PRE_cy<7>_rt" AREA_GROUP = "pblock_1";
+INST "Mcompar_CE_cmp_lt0000_cy<0>_rt" AREA_GROUP = "pblock_1";
+INST "Mmux_A_BUF_mux000061" AREA_GROUP = "pblock_1";
+INST "Mmux_A_BUF_mux000051" AREA_GROUP = "pblock_1";
+INST "Mcount_PRE_cy<18>" AREA_GROUP = "pblock_1";
+INST "Madd_SE_addsub0000_xor<25>" AREA_GROUP = "pblock_1";
+INST "Mmux_A_BUF_mux000041" AREA_GROUP = "pblock_1";
+INST "Madd_SE_addsub0000_cy<3>_rt" AREA_GROUP = "pblock_1";
+INST "SEK_mux0000<3>31_SW2_SW0" AREA_GROUP = "pblock_1";
+INST "Mcount_PRE_xor<9>" AREA_GROUP = "pblock_1";
+INST "Mcount_PRE_xor<3>" AREA_GROUP = "pblock_1";
+INST "Mcount_PRE_cy<12>" AREA_GROUP = "pblock_1";
+INST "Mcount_PRE_cy<16>" AREA_GROUP = "pblock_1";
+INST "Mcount_PRE_cy<21>" AREA_GROUP = "pblock_1";
+INST "Mmux_A_BUF_mux000071" AREA_GROUP = "pblock_1";
+INST "Mmux_A_BUF_mux0000101" AREA_GROUP = "pblock_1";
+INST "Mcompar_SE_cmp_lt0000_cy<1>" AREA_GROUP = "pblock_1";
+INST "Mcompar_SE_cmp_lt0000_cy<4>_rt" AREA_GROUP = "pblock_1";
+INST "SEK_mux0000<3>31_SW4" AREA_GROUP = "pblock_1";
+INST "SEK_mux0000<3>31_SW3" AREA_GROUP = "pblock_1";
+INST "Mmux_A_BUF_mux0000132" AREA_GROUP = "pblock_1";
+INST "Mcount_PRE_cy<18>_rt" AREA_GROUP = "pblock_1";
+INST "Mmux_A_BUF_mux0000102" AREA_GROUP = "pblock_1";
+INST "SEK_mux0000<3>31_SW1" AREA_GROUP = "pblock_1";
+INST "SEK_mux0000<3>31_SW0" AREA_GROUP = "pblock_1";
+INST "Madd_SE_addsub0000_lut<0>_INV_0" AREA_GROUP = "pblock_1";
+INST "Mcompar_SE_cmp_lt0000_cy<0>" AREA_GROUP = "pblock_1";
+INST "Madd_SE_addsub0000_cy<7>" AREA_GROUP = "pblock_1";
+INST "SE_mux0001<1>1" AREA_GROUP = "pblock_1";
+INST "SE_mux0001<18>1" AREA_GROUP = "pblock_1";
+INST "SE_mux0001<23>1" AREA_GROUP = "pblock_1";
+INST "PRE_9" AREA_GROUP = "pblock_1";
+INST "PRE_8" AREA_GROUP = "pblock_1";
+INST "PRE_7" AREA_GROUP = "pblock_1";
+INST "Madd_SE_addsub0000_cy<6>" AREA_GROUP = "pblock_1";
+INST "PRE_6" AREA_GROUP = "pblock_1";
+INST "Mcount_PRE_lut<0>_INV_0" AREA_GROUP = "pblock_1";
+INST "PRE_5" AREA_GROUP = "pblock_1";
+INST "PRE_4" AREA_GROUP = "pblock_1";
+INST "PRE_3" AREA_GROUP = "pblock_1";
+INST "Mmux_A_BUF_mux0000131" AREA_GROUP = "pblock_1";
+INST "SEG_0_OBUF" AREA_GROUP = "pblock_1";
+INST "Mcount_PRE_cy<13>_rt" AREA_GROUP = "pblock_1";
+INST "Mcompar_SE_cmp_lt0000_cy<9>_rt" AREA_GROUP = "pblock_1";
+INST "MIN_mux0000<1>_SW0" AREA_GROUP = "pblock_1";
+INST "Mcompar_SE_cmp_lt0000_cy<9>" AREA_GROUP = "pblock_1";
+INST "Mcompar_SE_cmp_lt0000_cy<8>" AREA_GROUP = "pblock_1";
+INST "Madd_SE_addsub0000_cy<9>_rt" AREA_GROUP = "pblock_1";
+INST "E_BUF_1" AREA_GROUP = "pblock_1";
+INST "E_BUF_0" AREA_GROUP = "pblock_1";
+INST "SE_mux0001<6>1" AREA_GROUP = "pblock_1";
+INST "Mcount_PRE_cy<8>_rt" AREA_GROUP = "pblock_1";
+INST "PRE_19" AREA_GROUP = "pblock_1";
+INST "PRE_23" AREA_GROUP = "pblock_1";
+INST "PRE_18" AREA_GROUP = "pblock_1";
+INST "PRE_22" AREA_GROUP = "pblock_1";
+INST "PRE_17" AREA_GROUP = "pblock_1";
+INST "COUNT_and00001" AREA_GROUP = "pblock_1";
+INST "PRE_21" AREA_GROUP = "pblock_1";
+INST "PRE_16" AREA_GROUP = "pblock_1";
+INST "Mmux_A_BUF_mux0000271" AREA_GROUP = "pblock_1";
+INST "PRE_20" AREA_GROUP = "pblock_1";
+INST "PRE_15" AREA_GROUP = "pblock_1";
+INST "CLK_BUFGP" AREA_GROUP = "pblock_1";
+INST "Mmux_A_BUF_mux0000192" AREA_GROUP = "pblock_1";
+INST "Mmux_A_BUF_mux0000261" AREA_GROUP = "pblock_1";
+INST "Mcompar_SE_cmp_lt0000_cy<7>" AREA_GROUP = "pblock_1";
+INST "XST_GND" AREA_GROUP = "pblock_1";
+INST "SEK_mux0000<4>11" AREA_GROUP = "pblock_1";
+INST "A_BUF_13" AREA_GROUP = "pblock_1";
+INST "Mcompar_SE_cmp_lt0000_cy<6>" AREA_GROUP = "pblock_1";
+INST "PRE_14" AREA_GROUP = "pblock_1";
+INST "PRE_13" AREA_GROUP = "pblock_1";
+INST "PRE_12" AREA_GROUP = "pblock_1";
+INST "temp_mux0000_f5" AREA_GROUP = "pblock_1";
+INST "PRE_11" AREA_GROUP = "pblock_1";
+INST "MIN_mux0000<2>" AREA_GROUP = "pblock_1";
+INST "PRE_10" AREA_GROUP = "pblock_1";
+INST "SE_9" AREA_GROUP = "pblock_1";
+INST "SE_8" AREA_GROUP = "pblock_1";
+INST "SE_7" AREA_GROUP = "pblock_1";
+INST "SE_6" AREA_GROUP = "pblock_1";
+INST "MIN_mux0000<1>" AREA_GROUP = "pblock_1";
+INST "SE_5" AREA_GROUP = "pblock_1";
+INST "Mmux_A_BUF_mux0000251" AREA_GROUP = "pblock_1";
+INST "SE_4" AREA_GROUP = "pblock_1";
+INST "SE_3" AREA_GROUP = "pblock_1";
+INST "SEK_mux0000<0>111" AREA_GROUP = "pblock_1";
+INST "Mcount_PRE_xor<10>" AREA_GROUP = "pblock_1";
+INST "Mcompar_SE_cmp_lt0000_lut<5>_INV_0" AREA_GROUP = "pblock_1";
+INST "temp" AREA_GROUP = "pblock_1";
+INST "Madd_SE_addsub0000_cy<10>_rt" AREA_GROUP = "pblock_1";
+INST "BTN_START_OLD" AREA_GROUP = "pblock_1";
+INST "SE_mux0001<7>1" AREA_GROUP = "pblock_1";
+INST "SEG_3_OBUF" AREA_GROUP = "pblock_1";
+INST "MIN_not00011" AREA_GROUP = "pblock_1";
+INST "E_BUF_3" AREA_GROUP = "pblock_1";
+INST "E_BUF_2" AREA_GROUP = "pblock_1";
+INST "A_BUF_12" AREA_GROUP = "pblock_1";
+INST "Mmux_A_BUF_mux0000162" AREA_GROUP = "pblock_1";
+INST "Mmux_A_BUF_mux0000161" AREA_GROUP = "pblock_1";
+INST "Mmux_A_BUF_mux0000221" AREA_GROUP = "pblock_1";
+INST "Madd_SE_addsub0000_cy<1>_rt" AREA_GROUP = "pblock_1";
+INST "Mmux_A_BUF_mux0000191" AREA_GROUP = "pblock_1";
+INST "A_BUF_11" AREA_GROUP = "pblock_1";
+INST "A_BUF_10" AREA_GROUP = "pblock_1";
+INST "Mcompar_SE_cmp_lt0000_cy<5>" AREA_GROUP = "pblock_1";
+INST "Madd_SE_addsub0000_xor<8>" AREA_GROUP = "pblock_1";
+INST "Mmux_A_BUF_mux000016_f5" AREA_GROUP = "pblock_1";
+INST "Mcount_PRE_cy<3>_rt" AREA_GROUP = "pblock_1";
+INST "Madd_SE_addsub0000_cy<21>_rt" AREA_GROUP = "pblock_1";
+INST "Madd_SE_addsub0000_cy<16>_rt" AREA_GROUP = "pblock_1";
+INST "Madd_SE_addsub0000_xor<7>" AREA_GROUP = "pblock_1";
+INST "MIN_not000111" AREA_GROUP = "pblock_1";
+INST "Madd_SE_addsub0000_xor<6>" AREA_GROUP = "pblock_1";
+INST "Madd_SE_addsub0000_xor<5>" AREA_GROUP = "pblock_1";
+INST "XST_VCC" AREA_GROUP = "pblock_1";
+INST "Mcompar_SE_cmp_lt0000_cy<7>_rt" AREA_GROUP = "pblock_1";
+INST "Mcount_PRE_cy<11>_rt" AREA_GROUP = "pblock_1";
+INST "Madd_SE_addsub0000_xor<4>" AREA_GROUP = "pblock_1";
+INST "Mmux_A_BUF_mux0000241" AREA_GROUP = "pblock_1";
+INST "SE_mux0001<3>1" AREA_GROUP = "pblock_1";
+INST "SE_mux0001<25>1" AREA_GROUP = "pblock_1";
+INST "Mcompar_SE_cmp_lt0000_cy<4>" AREA_GROUP = "pblock_1";
+INST "SE_mux0001<12>1" AREA_GROUP = "pblock_1";
+INST "Madd_SE_addsub0000_cy<13>_rt" AREA_GROUP = "pblock_1";
+INST "temp_not0001_SW0" AREA_GROUP = "pblock_1";
+INST "Mcompar_SE_cmp_lt0000_cy<3>" AREA_GROUP = "pblock_1";
+INST "Mcompar_SE_cmp_lt0000_cy<2>" AREA_GROUP = "pblock_1";
+INST "Madd_SE_addsub0000_xor<3>" AREA_GROUP = "pblock_1";
+INST "MIN_mux0000<6>1" AREA_GROUP = "pblock_1";
+INST "Madd_SE_addsub0000_xor<2>" AREA_GROUP = "pblock_1";
+INST "SEG_1_OBUF" AREA_GROUP = "pblock_1";
+INST "Madd_SE_addsub0000_xor<1>" AREA_GROUP = "pblock_1";
+INST "AN_3_OBUF" AREA_GROUP = "pblock_1";
+INST "Madd_SE_addsub0000_xor<0>" AREA_GROUP = "pblock_1";
+INST "Mcompar_SE_cmp_lt0000_lut<3>_INV_0" AREA_GROUP = "pblock_1";
+INST "BTN_STP_OLD" AREA_GROUP = "pblock_1";
+INST "SE_mux0001<2>1" AREA_GROUP = "pblock_1";
+INST "SE_mux0001<19>1" AREA_GROUP = "pblock_1";
+INST "SE_mux0001<24>1" AREA_GROUP = "pblock_1";
+INST "Madd_SE_addsub0000_cy<11>_rt" AREA_GROUP = "pblock_1";
+INST "Mmux_A_BUF_mux0000222" AREA_GROUP = "pblock_1";
+INST "MIN_mux0000<5>1" AREA_GROUP = "pblock_1";
+INST "Madd_SE_addsub0000_cy<9>" AREA_GROUP = "pblock_1";
+INST "SE_2" AREA_GROUP = "pblock_1";
+INST "Mcount_PRE_cy<21>_rt" AREA_GROUP = "pblock_1";
+INST "Mcount_PRE_cy<16>_rt" AREA_GROUP = "pblock_1";
+INST "SE_1" AREA_GROUP = "pblock_1";
+INST "SE_mux0001<5>1" AREA_GROUP = "pblock_1";
+INST "SE_0" AREA_GROUP = "pblock_1";
+INST "Mmux_A_BUF_mux000010_f5" AREA_GROUP = "pblock_1";
+INST "SEG_2_OBUF" AREA_GROUP = "pblock_1";
+INST "Madd_SE_addsub0000_cy<4>_rt" AREA_GROUP = "pblock_1";
+INST "Madd_SE_addsub0000_xor<9>" AREA_GROUP = "pblock_1";
+INST "SE_mux0001<4>1" AREA_GROUP = "pblock_1";
+INST "Mcount_PRE_cy<10>_rt" AREA_GROUP = "pblock_1";
+INST "Mmux_A_BUF_mux000022_f5" AREA_GROUP = "pblock_1";
+INST "Mcount_PRE_cy<2>" AREA_GROUP = "pblock_1";
+INST "Mcount_PRE_xor<14>" AREA_GROUP = "pblock_1";
+INST "Mcount_PRE_cy<1>" AREA_GROUP = "pblock_1";
+INST "Mcount_PRE_xor<13>" AREA_GROUP = "pblock_1";
+INST "SEG_4_OBUF" AREA_GROUP = "pblock_1";
+INST "CE" AREA_GROUP = "pblock_1";
+INST "Mcount_PRE_cy<0>" AREA_GROUP = "pblock_1";
+INST "Mcount_PRE_xor<12>" AREA_GROUP = "pblock_1";
+INST "BTN_STP_IBUF" AREA_GROUP = "pblock_1";
+INST "Mcount_PRE_xor<11>" AREA_GROUP = "pblock_1";
+INST "SE_mux0001<11>1" AREA_GROUP = "pblock_1";
+INST "SE_mux0001<8>1" AREA_GROUP = "pblock_1";
+INST "Mcompar_CE_cmp_lt0000_cy<6>" AREA_GROUP = "pblock_1";
+INST "Mcompar_CE_cmp_lt0000_cy<5>" AREA_GROUP = "pblock_1";
+INST "AN_0_OBUF" AREA_GROUP = "pblock_1";
+INST "Mmux_A_BUF_mux000019_f5" AREA_GROUP = "pblock_1";
+INST "BTN_RST_IBUF" AREA_GROUP = "pblock_1";
+INST "Mcompar_CE_cmp_lt0000_cy<4>" AREA_GROUP = "pblock_1";
+INST "Mcount_PRE_cy<19>_rt" AREA_GROUP = "pblock_1";
+INST "Mcompar_CE_cmp_lt0000_cy<3>" AREA_GROUP = "pblock_1";
+INST "Mcompar_CE_cmp_lt0000_cy<2>" AREA_GROUP = "pblock_1";
+INST "Mcompar_CE_cmp_lt0000_cy<1>" AREA_GROUP = "pblock_1";
+INST "Mcompar_CE_cmp_lt0000_cy<0>" AREA_GROUP = "pblock_1";
+INST "B_1" AREA_GROUP = "pblock_1";
+INST "Madd_SE_addsub0000_cy<7>_rt" AREA_GROUP = "pblock_1";
+INST "SE_mux0001<20>1" AREA_GROUP = "pblock_1";
+INST "A_BUF_9" AREA_GROUP = "pblock_1";
+INST "Madd_SE_addsub0000_cy<17>_rt" AREA_GROUP = "pblock_1";
+INST "Madd_SE_addsub0000_cy<22>_rt" AREA_GROUP = "pblock_1";
+INST "A_BUF_8" AREA_GROUP = "pblock_1";
+INST "A_BUF_7" AREA_GROUP = "pblock_1";
+INST "A_BUF_6" AREA_GROUP = "pblock_1";
+INST "MIN_mux0000<2>_SW1" AREA_GROUP = "pblock_1";
+INST "A_BUF_5" AREA_GROUP = "pblock_1";
+INST "Madd_SE_addsub0000_cy<10>" AREA_GROUP = "pblock_1";
+INST "A_BUF_4" AREA_GROUP = "pblock_1";
+INST "A_BUF_3" AREA_GROUP = "pblock_1";
+INST "SEK_mux0000<4>1" AREA_GROUP = "pblock_1";
+INST "Mcompar_SE_cmp_lt0000_lut<6>" AREA_GROUP = "pblock_1";
+INST "A_BUF_2" AREA_GROUP = "pblock_1";
+INST "A_BUF_1" AREA_GROUP = "pblock_1";
+INST "A_BUF_0" AREA_GROUP = "pblock_1";
+INST "SEK_not00021" AREA_GROUP = "pblock_1";
+INST "Mcount_PRE_cy<12>_rt" AREA_GROUP = "pblock_1";
+INST "Mcount_PRE_xor<23>_rt" AREA_GROUP = "pblock_1";
+INST "SE_25" AREA_GROUP = "pblock_1";
+INST "SE_19" AREA_GROUP = "pblock_1";
+INST "SE_24" AREA_GROUP = "pblock_1";
+INST "SE_mux0001<14>1" AREA_GROUP = "pblock_1";
+INST "SE_18" AREA_GROUP = "pblock_1";
+INST "SE_23" AREA_GROUP = "pblock_1";
+INST "MIN_mux0000<3>111" AREA_GROUP = "pblock_1";
+INST "Mcompar_CE_cmp_lt0000_cy<7>" AREA_GROUP = "pblock_1";
+INST "temp_mux00002" AREA_GROUP = "pblock_1";
+INST "Mcount_PRE_cy<22>_rt" AREA_GROUP = "pblock_1";
+INST "Madd_SE_addsub0000_cy<17>" AREA_GROUP = "pblock_1";
+INST "Madd_SE_addsub0000_cy<22>" AREA_GROUP = "pblock_1";
+INST "Madd_SE_addsub0000_cy<16>" AREA_GROUP = "pblock_1";
+INST "Madd_SE_addsub0000_cy<21>" AREA_GROUP = "pblock_1";
+INST "SE_mux0001<21>1" AREA_GROUP = "pblock_1";
+INST "SE_mux0001<16>1" AREA_GROUP = "pblock_1";
+INST "Madd_SE_addsub0000_cy<15>" AREA_GROUP = "pblock_1";
+INST "Madd_SE_addsub0000_cy<20>" AREA_GROUP = "pblock_1";
+INST "SEK_mux0000<5>1" AREA_GROUP = "pblock_1";
+INST "Mcompar_CE_cmp_lt0000_cy<9>" AREA_GROUP = "pblock_1";
+INST "Mmux_A_BUF_mux000013_f5" AREA_GROUP = "pblock_1";
+INST "MIN_mux0000<0>61_SW0" AREA_GROUP = "pblock_1";
+INST "Madd_SE_addsub0000_cy<3>" AREA_GROUP = "pblock_1";
+INST "MIN_mux0000<1>111" AREA_GROUP = "pblock_1";
+INST "Mcount_PRE_cy<9>_rt" AREA_GROUP = "pblock_1";
+INST "SE_mux0001<0>2" AREA_GROUP = "pblock_1";
+INST "Mcompar_CE_cmp_lt0000_cy<2>_rt" AREA_GROUP = "pblock_1";
+INST "Madd_SE_addsub0000_cy<2>" AREA_GROUP = "pblock_1";
+INST "SE_mux0001<17>1" AREA_GROUP = "pblock_1";
+INST "SE_mux0001<22>1" AREA_GROUP = "pblock_1";
+INST "Madd_SE_addsub0000_cy<1>" AREA_GROUP = "pblock_1";
+INST "Mcompar_CE_cmp_lt0000_cy<9>_inv_INV_0" AREA_GROUP = "pblock_1";
+INST "Mcompar_CE_cmp_lt0000_cy<8>" AREA_GROUP = "pblock_1";
+INST "Madd_SE_addsub0000_cy<0>" AREA_GROUP = "pblock_1";
+INST "MIN_mux0000<3>1" AREA_GROUP = "pblock_1";
+INST "Madd_SE_addsub0000_cy<19>" AREA_GROUP = "pblock_1";
+INST "Madd_SE_addsub0000_cy<24>" AREA_GROUP = "pblock_1";
+INST "SE_not00021" AREA_GROUP = "pblock_1";
+INST "Madd_SE_addsub0000_cy<18>" AREA_GROUP = "pblock_1";
+INST "Madd_SE_addsub0000_cy<23>" AREA_GROUP = "pblock_1";
+INST "Mcount_PRE_cy<17>_rt" AREA_GROUP = "pblock_1";
+INST "Mcompar_CE_cmp_lt0000_lut<3>_INV_0" AREA_GROUP = "pblock_1";
+INST "PRE_2" AREA_GROUP = "pblock_1";
+INST "Madd_SE_addsub0000_cy<5>" AREA_GROUP = "pblock_1";
+INST "MIN_mux0000<4>1" AREA_GROUP = "pblock_1";
+INST "PRE_1" AREA_GROUP = "pblock_1";
+INST "PRE_0" AREA_GROUP = "pblock_1";
+INST "Madd_SE_addsub0000_cy<4>" AREA_GROUP = "pblock_1";
+INST "Mrom_COUNT_rom000011_INV_0" AREA_GROUP = "pblock_1";
+INST "AN_2_OBUF" AREA_GROUP = "pblock_1";
+INST "COUNT_1" AREA_GROUP = "pblock_1";
+INST "COUNT_0" AREA_GROUP = "pblock_1";
+INST "Mcount_PRE_cy<4>" AREA_GROUP = "pblock_1";
+INST "Mcount_PRE_xor<21>" AREA_GROUP = "pblock_1";
+INST "Mcount_PRE_xor<16>" AREA_GROUP = "pblock_1";
+INST "SE_mux0001<9>1" AREA_GROUP = "pblock_1";
+INST "DP" AREA_GROUP = "pblock_1";
+INST "Mcount_PRE_cy<3>" AREA_GROUP = "pblock_1";
+INST "Mcount_PRE_xor<15>" AREA_GROUP = "pblock_1";
+INST "Mcount_PRE_xor<20>" AREA_GROUP = "pblock_1";
+INST "temp_mux00001" AREA_GROUP = "pblock_1";
+INST "MIN_not0001111" AREA_GROUP = "pblock_1";
+INST "BTN_START_IBUF" AREA_GROUP = "pblock_1";
+INST "Madd_SE_addsub0000_cy<14>" AREA_GROUP = "pblock_1";
+INST "Madd_SE_addsub0000_cy<13>" AREA_GROUP = "pblock_1";
+INST "Madd_SE_addsub0000_cy<5>_rt" AREA_GROUP = "pblock_1";
+INST "AN_1_OBUF" AREA_GROUP = "pblock_1";
+INST "Madd_SE_addsub0000_cy<12>" AREA_GROUP = "pblock_1";
+INST "BTN_RST_OLD" AREA_GROUP = "pblock_1";
+INST "Mcount_PRE_cy<4>_rt" AREA_GROUP = "pblock_1";
+INST "Madd_SE_addsub0000_cy<11>" AREA_GROUP = "pblock_1";
+INST "SE_mux0001<15>1" AREA_GROUP = "pblock_1";
+INST "Mrom_COUNT_rom000041" AREA_GROUP = "pblock_1";
+INST "Madd_SE_addsub0000_cy<12>_rt" AREA_GROUP = "pblock_1";
+INST "Mcount_PRE_cy<11>" AREA_GROUP = "pblock_1";
+INST "Madd_SE_addsub0000_xor<25>_rt" AREA_GROUP = "pblock_1";
+INST "Mcount_PRE_cy<7>" AREA_GROUP = "pblock_1";
+INST "Mcount_PRE_xor<19>" AREA_GROUP = "pblock_1";
+INST "Madd_SE_addsub0000_xor<12>" AREA_GROUP = "pblock_1";
+INST "Mcount_PRE_cy<10>" AREA_GROUP = "pblock_1";
+INST "Mcount_PRE_cy<2>_rt" AREA_GROUP = "pblock_1";
+INST "Mcount_PRE_cy<6>" AREA_GROUP = "pblock_1";
+INST "Mcount_PRE_xor<18>" AREA_GROUP = "pblock_1";
+INST "Mcount_PRE_xor<23>" AREA_GROUP = "pblock_1";
+INST "Madd_SE_addsub0000_cy<20>_rt" AREA_GROUP = "pblock_1";
+INST "Madd_SE_addsub0000_cy<15>_rt" AREA_GROUP = "pblock_1";
+INST "Madd_SE_addsub0000_xor<11>" AREA_GROUP = "pblock_1";
+INST "Madd_SE_addsub0000_xor<10>" AREA_GROUP = "pblock_1";
+INST "Mcount_PRE_cy<5>" AREA_GROUP = "pblock_1";
+INST "Mcount_PRE_xor<17>" AREA_GROUP = "pblock_1";
+INST "Mcount_PRE_xor<22>" AREA_GROUP = "pblock_1";
+INST "B_0" AREA_GROUP = "pblock_1";
+INST "Mcount_PRE_cy<6>_rt" AREA_GROUP = "pblock_1";
+INST "SEK_mux0000<0>1" AREA_GROUP = "pblock_1";
+INST "SEK_mux0000<3>31_SW2" AREA_GROUP = "pblock_1";
+INST "Madd_SE_addsub0000_cy<19>_rt" AREA_GROUP = "pblock_1";
+INST "SE_17" AREA_GROUP = "pblock_1";
+INST "SE_22" AREA_GROUP = "pblock_1";
+INST "SE_16" AREA_GROUP = "pblock_1";
+INST "SE_21" AREA_GROUP = "pblock_1";
+INST "Mcompar_SE_cmp_lt0000_lut<2>" AREA_GROUP = "pblock_1";
+INST "SE_15" AREA_GROUP = "pblock_1";
+INST "SE_20" AREA_GROUP = "pblock_1";
+INST "SE_14" AREA_GROUP = "pblock_1";
+INST "SE_13" AREA_GROUP = "pblock_1";
+INST "SE_12" AREA_GROUP = "pblock_1";
+INST "SE_11" AREA_GROUP = "pblock_1";
+INST "Mcompar_SE_cmp_lt0000_lut<1>" AREA_GROUP = "pblock_1";
+INST "SE_10" AREA_GROUP = "pblock_1";
+INST "Mmux_A_BUF_mux00003_f5" AREA_GROUP = "pblock_1";
+INST "Mrom_COUNT_rom000071" AREA_GROUP = "pblock_1";
+INST "SEK_mux0000<2>_SW0_SW0" AREA_GROUP = "pblock_1";
+INST "Mrom_COUNT_rom000061" AREA_GROUP = "pblock_1";
+INST "Madd_SE_addsub0000_cy<8>" AREA_GROUP = "pblock_1";
+INST "Mcompar_SE_cmp_lt0000_lut<8>_INV_0" AREA_GROUP = "pblock_1";
+INST "SE_mux0001<13>1" AREA_GROUP = "pblock_1";
+INST "Madd_SE_addsub0000_cy<18>_rt" AREA_GROUP = "pblock_1";
+INST "Madd_SE_addsub0000_cy<23>_rt" AREA_GROUP = "pblock_1";
+INST "Mcount_PRE_cy<5>_rt" AREA_GROUP = "pblock_1";
+INST "Madd_SE_addsub0000_cy<6>_rt" AREA_GROUP = "pblock_1";
+INST "SEK_mux0000<1>" AREA_GROUP = "pblock_1";
+INST "SEK_mux0000<2>" AREA_GROUP = "pblock_1";
+INST "SE_mux0001<10>1" AREA_GROUP = "pblock_1";
+INST "DP_mux00001" AREA_GROUP = "pblock_1";
+AREA_GROUP "pblock_1" RANGE=SLICE_X18Y24:SLICE_X29Y33;
+## clock pin for Basys2 Board
+# Bank = 0, Signal name = MCLK
+NET "CLK" LOC = B8;
+#NET "uclk" LOC = "M6"; # Bank = 2, Signal name = UCLK
+#NET "clk" CLOCK_DEDICATED_ROUTE = FALSE;
+#NET "uclk" CLOCK_DEDICATED_ROUTE = FALSE;
+#
+## Pin assignment for EppCtl
+## Connected to Basys2 onBoard USB controller
+#NET "EppAstb" LOC = "F2"; # Bank = 3
+#NET "EppDstb" LOC = "F1"; # Bank = 3
+#NET "EppWR"       LOC = "C2"; # Bank = 3
+#
+#NET "EppWait" LOC = "D2"; # Bank = 3
+#
+#
+#NET "EppDB<0>" LOC = "N2"; # Bank = 2
+#NET "EppDB<1>" LOC = "M2"; # Bank = 2
+#NET "EppDB<2>" LOC = "M1"; # Bank = 3
+#NET "EppDB<3>" LOC = "L1"; # Bank = 3
+#NET "EppDB<4>" LOC = "L2"; # Bank = 3
+#NET "EppDB<5>" LOC = "H2"; # Bank = 3
+#NET "EppDB<6>" LOC = "H1"; # Bank = 3
+#NET "EppDB<7>" LOC = "H3"; # Bank = 3
+#
+#
+## Pin assignment for DispCtl
+## Connected to Basys2 onBoard 7seg display
+# Bank = 1, Signal name = CA
+NET "SEG[0]" LOC = L14;
+# Bank = 1, Signal name = CB
+NET "SEG[1]" LOC = H12;
+# Bank = 1, Signal name = CC
+NET "SEG[2]" LOC = N14;
+# Bank = 2, Signal name = CD
+NET "SEG[3]" LOC = N11;
+# Bank = 2, Signal name = CE
+NET "SEG[4]" LOC = P12;
+# Bank = 1, Signal name = CF
+NET "SEG[5]" LOC = L13;
+# Bank = 1, Signal name = CG
+NET "SEG[6]" LOC = M12;
+# Bank = 1, Signal name = DP
+NET "DP" LOC = N13;
+#
+# Bank = 1, Signal name = AN3
+NET "AN[3]" LOC = K14;
+# Bank = 1, Signal name = AN2
+NET "AN[2]" LOC = M13;
+# Bank = 1, Signal name = AN1
+NET "AN[1]" LOC = J12;
+# Bank = 1, Signal name = AN0
+NET "AN[0]" LOC = F12;
+#
+## Pin assignment for LEDs
+#NET "Led<7>" LOC = "G1" ; # Bank = 3, Signal name = LD7
+#NET "Led<6>" LOC = "P4" ; # Bank = 2, Signal name = LD6
+#NET "Led<5>" LOC = "N4" ;  # Bank = 2, Signal name = LD5
+#NET "Led<4>" LOC = "N5" ;  # Bank = 2, Signal name = LD4
+#NET "Led<3>" LOC = "P6" ; # Bank = 2, Signal name = LD3
+#NET "Led<2>" LOC = "P7" ; # Bank = 3, Signal name = LD2
+#NET "Led<1>" LOC = "M11" ; # Bank = 2, Signal name = LD1
+#NET "Led<0>" LOC = "M5" ;  # Bank = 2, Signal name = LD0
+#
+## Pin assignment for SWs
+#NET "sw<7>" LOC = "N3";  # Bank = 2, Signal name = SW7
+#NET "sw<6>" LOC = "E2";  # Bank = 3, Signal name = SW6
+#NET "sw<5>" LOC = "F3";  # Bank = 3, Signal name = SW5
+#NET "sw<4>" LOC = "G3";  # Bank = 3, Signal name = SW4
+#NET "sw<3>" LOC = "B4";  # Bank = 3, Signal name = SW3
+#NET "sw<2>" LOC = "K3";  # Bank = 3, Signal name = SW2
+#NET "sw<1>" LOC = "L3";  # Bank = 3, Signal name = SW1
+#NET "sw<0>" LOC = "P11";  # Bank = 2, Signal name = SW0
+#
+#NET "btn<3>" LOC = "A7";  # Bank = 1, Signal name = BTN3
+# Bank = 0, Signal name = BTN2
+NET "BTN_STP" LOC = M4;
+# Bank = 2, Signal name = BTN1
+NET "BTN_RST" LOC = C11;
+# Bank = 0, Signal name = BTN0
+NET "BTN_START" LOC = G12;
+#
+## Loop back/demo signals
+## Pin assignment for PS2
+#NET "PS2C"    LOC = "B1"   | DRIVE = 2  | PULLUP ; # Bank = 3, Signal name = PS2C
+#NET "PS2D"    LOC = "C3"   | DRIVE = 2  | PULLUP ; # Bank = 3, Signal name = PS2D
+#
+## Pin assignment for VGA
+#NET "HSYNC"   LOC = "J14"  | DRIVE = 2  | PULLUP ; # Bank = 1, Signal name = HSYNC
+#NET "VSYNC"   LOC = "K13"  | DRIVE = 2  | PULLUP ; # Bank = 1, Signal name = VSYNC
+#
+#NET "OutRed<2>"  LOC = "F13"  | DRIVE = 2  | PULLUP ; # Bank = 1, Signal name = RED2
+#NET "OutRed<1>"  LOC = "D13"  | DRIVE = 2  | PULLUP ; # Bank = 1, Signal name = RED1
+#NET "OutRed<0>"  LOC = "C14"  | DRIVE = 2  | PULLUP ; # Bank = 1, Signal name = RED0
+#NET "OutGreen<2>"  LOC = "G14"  | DRIVE = 2  | PULLUP ; # Bank = 1, Signal name = GRN2
+#NET "OutGreen<1>"  LOC = "G13"  | DRIVE = 2  | PULLUP ; # Bank = 1, Signal name = GRN1 
+#NET "OutGreen<0>"  LOC = "F14"  | DRIVE = 2  | PULLUP ; # Bank = 1, Signal name = GRN0 
+#NET "OutBlue<2>"  LOC = "J13"  | DRIVE = 2  | PULLUP ; # Bank = 1, Signal name = BLU2
+#NET "OutBlue<1>"  LOC = "H13"  | DRIVE = 2  | PULLUP ; # Bank = 1, Signal name = BLU1 
+#
+## Loop Back only tested signals
+#NET "PIO<72>" LOC = "B2"  | DRIVE = 2  | PULLUP ; # Bank = 1, Signal name = JA1
+#NET "PIO<73>" LOC = "A3"  | DRIVE = 2  | PULLUP ; # Bank = 1, Signal name = JA2
+#NET "PIO<74>" LOC = "J3"  | DRIVE = 2  | PULLUP ; # Bank = 1, Signal name = JA3
+#NET "PIO<75>" LOC = "B5"  | DRIVE = 2  | PULLUP ; # Bank = 1, Signal name = JA4
+#
+#NET "PIO<76>" LOC = "C6"  | DRIVE = 2  | PULLUP ; # Bank = 1, Signal name = JB1
+#NET "PIO<77>" LOC = "B6"  | DRIVE = 2  | PULLUP ; # Bank = 1, Signal name = JB2
+#NET "PIO<78>" LOC = "C5"  | DRIVE = 2  | PULLUP ; # Bank = 1, Signal name = JB3
+#NET "PIO<79>" LOC = "B7"  | DRIVE = 2  | PULLUP ; # Bank = 1, Signal name = JB4
+#
+#NET "PIO<80>" LOC = "A9"  | DRIVE = 2  | PULLUP ; # Bank = 1, Signal name = JC1
+#NET "PIO<81>" LOC = "B9"  | DRIVE = 2  | PULLUP ; # Bank = 1, Signal name = JC2
+#NET "PIO<82>" LOC = "A10" | DRIVE = 2  | PULLUP ; # Bank = 1, Signal name = JC3
+#NET "PIO<83>" LOC = "C9"  | DRIVE = 2  | PULLUP ; # Bank = 1, Signal name = JC4
+#
+#NET "PIO<84>" LOC = "C12"  | DRIVE = 2  | PULLUP ; # Bank = 1, Signal name = JD1
+#NET "PIO<85>" LOC = "A13"  | DRIVE = 2  | PULLUP ; # Bank = 2, Signal name = JD2
+#NET "PIO<86>" LOC = "C13"  | DRIVE = 2  | PULLUP ; # Bank = 1, Signal name = JD3
+#NET "PIO<87>" LOC = "D12"  | DRIVE = 2  | PULLUP ; # Bank = 2, Signal name = JD4 
+#
+NET "CLK" PERIOD = 10 ns;
